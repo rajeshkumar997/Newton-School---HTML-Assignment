@@ -1,0 +1,183 @@
+Question 1/23
+
+The below media query should be applied to all the css styles.@media not print and (min-width: 700px) { /* all my styles written here*/ }On which of the following devices will it work?
+	Mobile phone device (~300px wide)
+	Tablet device (~690px wide)
+	Desktop device (~1000px wide)
+	(Answer)-- All of the above
+  
+Question 2/23
+
+In the following media query example, what conditions are being targeted?
+@media (min-width: 1024px), screen and (orientation: landscape) { … }
+	(Answer)-- The rule will apply to a device that has either a width of 1024px or wider, or is a 	screen device in landscape mode.
+	The rule will apply to a device that has a width of 1024px or narrower and is a 	screen device in landscape mode.
+	The rule will apply to a device that has a width of 1024px or wider and is a screen 	device in landscape mode.
+	The rule will apply to a device that has a width of 1024px or narrower, or is a screen 	device in landscape mode
+  
+Question 3/23
+
+………… is the CSS3 media query, which returns output style portrait of height is greater than or equal to width, landscape if the opposite.
+	position
+	portrait
+	(Answer)-- orientation
+	landscape
+  
+Question 4/23
+
+When using the Flexbox method,what property and value is used to display flex items in a column?
+(Answer)--	flex-flow:column;or flex-direction:column
+	flex-flow:column;
+	flex-column:auto;
+	flex-direction:column;
+  
+Question 5/23
+
+The flex-direction property is used to specify the direction that flex items are displayed. What are the values used to specify
+the direction of the items in the following examples?
+(Answer)--	Example 1: flex-direction: row; Example 2: flex-direction: row-reverse; Example 3: 	flex-direction: column; Example 4: flex-direction:column-reverse;
+	Example 1: flex-direction: row-reverse; Example 2: flex-direction: row; Example 3: 	flex-direction: column-reverse; Example 4:
+	flex-direction: column;
+	Example 1: flex-direction: row; Example 2: flex-direction: row-reverse; Example 3: 	flex-direction: column; Example 4: flexdirection: reverse-column;
+	Example 1: flex-direction: column; Example 2: flex-direction: column-reverse; 	Example 3: flex-direction: row; Example 4: flexdirection: row-reverse;
+  
+Question 6/23
+
+What is the default flex-flow?
+	Flex
+	Normal
+(Answer)--	Row nowrap
+	Row wrap
+  
+Question 7/23
+
+From which version of Internet Explorer is Flexbox supported?
+	IE8
+	IE9
+	IE10
+(Answer)--	IE11
+	EDGE
+  
+Question 8/23
+
+Flex-basis defines?
+(Answer)--	The width of the flex box
+	the base of the flex element
+	the boldness of the flex element
+	if the flex element is visible
+  
+Question 9/23
+
+Flexbox layout is most appropriate to the components of an application, and small-scale layouts, while the Grid layout is intended for larger scale layouts.
+(Answer)--	True
+	False
+  
+Question 10/23
+
+Which of the following measurements is relative to 1% of the height of the viewport?
+	ch
+	rem
+	%
+(Answer)--	vh
+  
+Question 11/23
+
+Which of the following specifies how much the item will grow relative to the rest of the flexible items inside the same container?
+	Flex-scale
+	Flex-size
+(Answer)--	Flex-grow
+	Flex-flow
+  
+Question 12/23
+
+To use flexbox we define a container as a flexbox. What is the CSS to do this?
+	position:absolute;
+	float:left;
+(Answer)--	display:flex;
+	display:block;
+  
+Question 13/23
+
+Flex-wrap allows you to do what?
+	define the direction of how elements are positioned based on either row or column
+	define how to position elements vertically
+(Answer)--	define how elements will wrap when the browser width is changed
+	defines how position elements horizontally
+  
+Question 14/23
+
+Which of the following measurements defines a measurement relative to the height of a font in em spaces?
+	px
+	in
+(Answer)--	em
+	pt
+  
+Question 15/23
+
+Which Flexbox statement does not exist?
+(Answer)--	align-items: space-between
+	justify-content: space-between;
+	display: inline-flex;
+	align-self: auto;
+  
+Question 16/23
+
+To use flexbox we define a container as a flexbox. What is the CSS to do this?
+	Position: Absolute
+	Float: left
+(Answer)--	display: flex
+	display: block
+  
+Question 17/23
+
+Justify-content allows you to do what?
+	define the direction of how elements are positioned based on either row or column
+	define how elements will wrap when the browser width is changed
+	define how to position elements vertically
+(Answer)--	defines how position elements horizontally
+  
+Question 18/23
+
+Which of the following properties aligns the flexible container’s items when the items do not use all available space on the main-axis?
+	Wrap-content
+	Fix-content
+(Answer)--	Justify-content
+	Adjust-content
+  
+Question 19/23
+
+Flex-wrap allows you to do what?
+	define the direction of how elements are positioned based on either row or column
+(Answer)--	define how elements will wrap when the browser width is changed
+	define how to position elements vertically
+	defines how position elements horizontally
+  
+Question 20/23
+
+Flex-direction is applied to a flex element not the whole flex box.
+	True
+(Answer)--	False
+  
+Question 21/23
+
+Which of the following measurements is relative to 1 percentage of the width of the viewport?
+(Answer)--	vw
+	vmax
+	vmin
+	ch
+  
+Question 22/23
+
+What is the default orientation within a flex container?
+(Answer)--	Horizontal
+	Vertical
+	Perpendicular
+	Diagonal
+  
+Question 23/23
+
+The css property "order" for flex items allows you to _________.
+(Answer)--	specify in what order the flex items appear
+	specify in what direction the flex items appear
+	specify at what time flex items appear
+	none of the above.
