@@ -8,6 +8,6 @@
   order: 0;
 }
 
-#poison {
-order: 1;
+.poison {
+order: -1;
 }
