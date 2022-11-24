@@ -1,0 +1,26 @@
+.container {
+  height: 100vh;
+}
+.outer {
+  border: 2px solid rgb(0, 0, 0);
+  background: crimson;
+  margin-top: 50px !important;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+}
+.inner {
+  min-height: 200px;
+  background: aqua;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.main {
+  background: orange;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.form {
+  margin-top: 50px;
+}
