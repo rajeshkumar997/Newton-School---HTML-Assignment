@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="tv-space">
+          <div class="tv-border">
+            <div class="tv-container" id="container"style="color: white; font-family: roboto/serif; padding: 10px;">
+              <center>Power Off<center>
+            </div>
+            <div class="tv-nav" style="text-align:center; ">
+              <br> <span class="dot"></span> <br><br>
+            </div>
+          </div>
+          
+        </div>
+        
+        
+        <div class="pult">
+          <span class="dot"></span>
+          <div class="block title"></div>
+          <div class="block block-navigate">
+            
+            <button type="button" class="btn top-navigate power-off" id="power-off" onclick="reset()" onmousedown="colorchange()"></button>
+           
+          </div>
+          <div class="block block-channel">
+            <button type="button" class="btn channel cnl-namber" onclick="display(1)" id="1">1</button>
+            <button type="button" class="btn channel cnl-namber" onclick="display(2)" onmousedown="colorchange()" id="2">2</button>
+            <button type="button" class="btn channel cnl-namber" onclick="display(3)" onmousedown="colorchange()" id="3">3</button>
+            <button type="button" class="btn channel cnl-namber" onclick="display(4)" onmousedown="colorchange()" id="4">4</button>
+            <button type="button" class="btn channel cnl-namber" onclick="display(5)" onmousedown="colorchange()" id="5">5</button>
+            <button type="button" class="btn channel cnl-namber" onclick="display(6)" onmousedown="colorchange()" id="6">6</button>
+            <button type="button" class="btn channel cnl-namber" onclick="display(7)" onmousedown="colorchange()" id="7">7</button>
+            <button type="button" class="btn channel cnl-namber" onclick="display(8)" onmousedown="colorchange()" id="8">8</button>
+            <button type="button" class="btn channel cnl-namber" onclick="display(9)" onmousedown="colorchange()" id="9">9</button>
+            
+            <button type="button" class="btn channel cnl-namber" onclick="display(0)" onmousedown="colorchange()" id="0">0</button>
+            
+          </div>
+          
+         
+         </div>
+        </div>
+    
+</body>
+
+<script type="text/javascript" src="script.js"></script>
+</html>
